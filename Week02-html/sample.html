@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Sample</title>
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    <h1>Week-2 Examples</h1>
+    <h2>Form Example</h2>
+    <form method="POST" action="http://localhost:8080/myapp/register" target="_blank">
+        <input type="number" name="id"  min="10" max="99">
+        <br/>
+        <input type="text" name="firstname" placeholder="Firstname" required>
+        <br/>
+        <input type="text" name="lastname" placeholder="Lastname" required>
+        <br/>
+        <textarea rows="5" cols="20" name="address" >
+        </textarea>
+        <br/>
+        <select size="5" name="city">
+            <option value="34">Istanbul</option>
+            <option value="06" selected>Ankara</option>
+            <option value="61">Trabzon</option>
+            <option value="07">Antalya</option>
+            <option value="16">Bursa</option>
+            <option value="01">Adana</option>
+            <option value="35">İzmir</option>
+        </select>
+        <br/>
+        <input type="email" name="email" placeholder="Your email address">
+        <br/>
+        <input type="submit" value="Register Me">
+        <br/>
+    </form>
+  
+</body>
+
+</html>
