@@ -1,0 +1,99 @@
+body,html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body {
+	
+	background: #99c;
+	font-family: "Trebuchet MS", Georgia, Verdana, serif;
+	color: #000;
+	background: #aaa;
+}
+h1 {
+	font-size: 1.4em;
+	text-align: center;
+	padding-top: 5px;
+}
+
+h2 {
+	font-size: 1.2em;
+	padding-top: 1em;
+	margin-top: 0;
+}
+
+p {
+	margin-bottom: 0;
+	font-size: 0.8em;
+	line-height: 1.4em;
+}
+
+ul {
+	font-size: 0.8em;
+	line-height: 1.4em;
+}
+
+header,footer {
+	background: #333;
+	color: #eee;
+}
+
+#content {
+	background: white; 
+	padding: 20px;
+	margin-left: 20px;
+	height: 100%;
+	font-size: 18px;
+}
+
+nav h2 {
+	padding-left: 5px;
+}
+
+footer h2 {
+	text-align: center;
+	padding: 10px;
+	margin: 0;
+}
+
+#middle {
+	padding: 55px 0;
+	height: 100%;	
+}
+
+#middleregion {
+	margin: 0 auto;
+	height: 100%;
+	display: table;
+}
+
+nav {
+	width: 20%;
+	padding: 10px;
+	margin-right: 10px;
+	height: 100%;
+	background: gainsboro;
+	float: left;
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+header h1{
+	margin: 0;
+	line-height: 50px;
+}
+
+footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	height: 55px;
+	margin: 0 auto;
+}
+

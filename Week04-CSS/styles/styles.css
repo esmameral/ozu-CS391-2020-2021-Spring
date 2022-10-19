@@ -1,0 +1,24 @@
+img{
+    float:left;
+}
+
+#footer{
+    clear: both;
+}
+p {
+    text-align: center;
+    color: rgb(255, 0, 250);
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px dashed rgb(255,0,100);
+    
+}
+
+body {
+    background-image: url("../images/background.jfif");
+    background-repeat: repeat-x repeat-y
+    
+}
+
+
+
