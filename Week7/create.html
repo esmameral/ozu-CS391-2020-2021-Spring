@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Animal Shelter</title>
+    <script src="scripts/myfunctions.js"></script>
+
+
+</head>
+
+<body>
+    <form action="success.html" method="post" onsubmit="return valideForm();">
+        <table>
+            <tr>
+                <td>Breed:</td>
+                <td><input type="text" id="breed" name="breed" list="list" required >
+                    <datalist id="list">
+                        <option value="Stray Cat">
+                        <option value="Van Cat">
+                        <option value="Ankara Cat">
+                        <option value="Scottish Fold Cat">
+                        <option value="British Short Hair">
+                        <option value="Stay Dog">
+                        <option value="Terrier Dog">
+                        <option value="Kangal Dog">
+                        <option value="Akbaş Dog"></option>
+                    </datalist> </td>
+            </tr>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" id="name" name="name" minlength="2" maxlength="10"></td>
+            </tr>
+
+            <tr>
+                <td>Age:</td>
+                <td><input type="number" id="age" name="age" min=0 max=10></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gender" id="male" value="Male" checked> Male
+                    <input type="radio" name="gender" id="female" value="Female" > Female
+                </td>
+            </tr>
+            <tr>
+                <td>Description:</td>
+                <td>
+                   <textarea id="description" name="desc" rows="5" columns="10" ></textarea>
+                </td>
+            </tr>    
+           
+        </table>
+        <input type="submit" value="Save Animal">
+        
+    </form>
+
+</body>
+
+</html>

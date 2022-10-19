@@ -1,0 +1,18 @@
+img{
+    float:left;
+}
+
+p {
+    text-align: center;
+    color: rgb(255, 0, 250);
+    font-size: 30px;
+    font-weight: bold;
+    border: 10px dashed rgb(255,0,100);
+    
+}
+
+body {
+    background-image: url("../images/background.jfif");
+    
+}
+

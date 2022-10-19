@@ -1,0 +1,20 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "this is a simple module",
+  "main": "index.js",
+  "scripts": {
+    "say-hello": "echo 'Hello NPM World'",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "express",
+    "mysql",
+    "npm"
+  ],
+  "author": "Esma Meral",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,27 @@
+#div1 {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border: 3px solid yellow
+}
+
+#div2 {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border: 3px solid blue
+}
+
+#div3 {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border: 3px solid red
+}
+
+#div4 {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border: 3px solid green
+}
